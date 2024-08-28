@@ -7,14 +7,14 @@
 Integrated backend with Docker for containerization.
 
 ## Project Overview
-本專題聚焦於資料品質 (DQ) 及可解釋 AI (XAI) 兩大主題，致力於建立自動化流程，降低資料處理成本同時提升可靠度。
+This project focuses on two major areas: data quality (DQ) and explainable AI (XAI). It aims to establish automated processes to reduce data processing costs and improve reliability.
 
 #### 資料品質 (DQ)
-在資料品質方面，透過母數及無母數補值等補值方法提升資料可用性，並以 Differential Entropy & Canonical Relative Entropy、相關性等指標評估補值成果。關於DQ的詳細資訊，可以參考下面連結：
+In the realm of data quality, we improve data availability through matrix and matrix-free complementation methods. We evaluate the results using indicators such as Differential Entropy, Canonical Relative Entropy, and correlation. For more detailed information about DQ, please refer to the link below:
 #### DQ repo: [EDASH](https://github.com/forbes110/EDASH)
 
 #### 可解釋 AI (XAI)
-可解釋 AI 透過 Active Learning 與使用者互動，適應各種客製化資料和需求；結合 Knowledge Distillation 確保主動學習過程的穩定性和降低最終參數量；最後透過 SHAP 評估模型的可解釋性以及 Counterfactual Explanation 協助使用者根據模型結果做進一步決策。這些模組的結合旨在建立全面的資料處理流程，確保模型的可靠性和解釋性，以提升整體效能。
+Our Explainable AI system interacts with users through Active Learning, adapting to various customized data and needs. It incorporates Knowledge Distillation to ensure the stability of the active learning process and reduce the final number of parameters. The system then evaluates the model's explainability and counterfactuals using SHAP Explanations, helping users make informed decisions based on model results. By combining these modules, we aim to establish a comprehensive data processing pipeline that ensures model reliability and interpretability, ultimately improving overall performance.
 
 #### Know More: [Presentation PPT](./專題簡報.pdf) | [Poster](./image/Poster.png)
 
