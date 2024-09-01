@@ -1,4 +1,4 @@
-# TAI DQ website
+# TAI-DAQ website
 
 > frontend: React, Tailwind
 
